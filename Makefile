@@ -15,6 +15,9 @@ libertad:
 	@echo "\033[1;35mCompiling libs :\033[m"
 	@make -s --no-print-directory -C libs/libft
 
+stu :
+	git subtree pull --prefix=libs/libft git@github.com:vlaward/philosopher_42.git main --squash
+
 make re : fclean all
 
 fclean : clean
