@@ -16,7 +16,7 @@ libertad:
 	@make -s --no-print-directory -C libs/libft
 
 stu:
-	git subtree pull --prefix=libs/libft git@github.com:vlaward/philosopher_42.git main --squash
+	git subtree pull --prefix=libs/libft git@github.com:vlaward/philosopher_42.git main
 
 make re : fclean all
 
